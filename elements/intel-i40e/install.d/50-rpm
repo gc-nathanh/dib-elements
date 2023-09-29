@@ -6,4 +6,4 @@ fi
 set -eu
 set -o pipefail
 
-dnf install http://10.196.2.100/otherrpms/i40e-2.23.17-1.x86_64.rpm
+dnf install -y http://10.196.2.100/otherrpms/i40e-2.23.17-1.x86_64.rpm
